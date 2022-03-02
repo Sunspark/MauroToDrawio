@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-02-22T16:19:44.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HllLWavgVtomL4k0Z5SN" version="16.6.2" type="device">
+  <diagram id="{{model_id}}" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+{% for class in classes %}
+  <!-- Class Entity: {{ loop.index }} -->
+      <!-- Header Row -->
+        <mxCell id="{{class.id}}" value="{{class.label}}"
+          style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;perimeterSpacing=0;rounded=1;sketch=1;shadow=0;swimlaneLine=1;sketchStyle=rough;arcSize=50;"
+          vertex="1" parent="1">
+          <mxGeometry x="{{ ((loop.index-1) * 230) + 10 }}" y="230" width="210" height="{{ 40 + (class.elements|length * 30) }}" as="geometry" />
+        </mxCell>
+
+      <!-- Number of elements: {{ class.elements|length }} -->
+
+  {% for element in class.elements %}
+      <!-- {% if element.is_pk %}PK {% endif %}Element row: {{ loop.index }} -->
+        <!-- row box -->
+        <mxCell id="{{element.id}}" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom={% if element.is_pk %}1{% else %}0{% endif %};"
+          vertex="1" parent="{{class.id}}">
+          <mxGeometry y="{{ loop.index * 30 }}" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="{{element.id}}-keybox" value="{% if element.is_pk %}PK{% endif %}"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="{{element.id}}">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="{{element.id}}-ename" value="{{element.label}}"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;{% if element.is_pk %}fontStyle=5;{% endif %}overflow=hidden;"
+          vertex="1" parent="{{element.id}}">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="{{element.id}}-etype" value="{{element.data_type}}"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="{{element.id}}">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  {% endfor %}
+
+      <!-- Links outgoing from this class: {{ class.links|length }} -->
+  {% for link in class.links %}
+        <!-- Connector line: {{ loop.index }} -->
+        <mxCell id="{{link.id}}"
+          style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startSize=30;curved=1;sketch=1;endArrow=classic;endFill=0;endSize=20;"
+          edge="1" parent="1"
+          source="{{link.source_id}}"
+          target="{{link.target_id}}">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+  {% endfor %}
+
+{% endfor %}
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

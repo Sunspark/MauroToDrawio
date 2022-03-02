@@ -1,0 +1,78 @@
+{
+  "model_id": "c5455ea5-0ce8-42ff-88e8-3feebcb5dd7f",
+  "classes": [
+    {
+      "id": "2937d766-9dde-44e5-85dd-92f1e64d85f4",
+      "label": "Invoice",
+      "elements": [
+        {
+          "id": "cb878887-67d2-4e1d-af2c-703212691851",
+          "label": "Invoice ID",
+          "data_type": "Text",
+          "is_pk": false
+        },
+        {
+          "id": "0cfe92fc-328e-4b9d-a459-812d707d0ff7",
+          "label": "Total Net Amount",
+          "data_type": "Decimal",
+          "is_pk": false
+        },
+        {
+          "id": "7a4524c8-781b-4e8c-b6ec-fc6b578e34f5",
+          "label": "Total Tax Amount",
+          "data_type": "Decimal",
+          "is_pk": false
+        },
+        {
+          "id": "6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf",
+          "label": "Currency Code",
+          "data_type": "Text",
+          "is_pk": false
+        }
+      ],
+      "links": [
+        {
+          "id": "fba2cb28-717c-47f7-bab0-069bc4fb7a05",
+          "source_id": "2937d766-9dde-44e5-85dd-92f1e64d85f4",
+          "target_id": "00e1ebb3-ac45-4113-b5a0-280b05e83dab"
+        },
+        {
+          "id": "ee77408b-24b2-4868-a872-1654d62e506f",
+          "source_id": "2937d766-9dde-44e5-85dd-92f1e64d85f4",
+          "target_id": "85208589-886b-496d-9cb6-5d5869063799"
+        }
+      ]
+    },
+    {
+      "id": "00e1ebb3-ac45-4113-b5a0-280b05e83dab",
+      "label": "InvoiceLineItem",
+      "elements": [
+        {
+          "id": "cd73d9f2-b0b3-455f-9965-fdea146265d3",
+          "label": "InvoiceLineItem Key",
+          "data_type": "Text",
+          "is_pk": true
+        },
+        {
+          "id": "4e3e4720-2a57-4a57-aa47-45742e40d99c",
+          "label": "InvoiceLineItem ID",
+          "data_type": "Number",
+          "is_pk": false
+        },
+        {
+          "id": "b3bad8d4-6c53-429b-b3ca-46df7e64cd45",
+          "label": "Net Cost",
+          "data_type": "Decimal",
+          "is_pk": false
+        },
+        {
+          "id": "add0d6c4-aec3-4d8c-9d04-752a95bf8187",
+          "label": "Tax amount",
+          "data_type": "Decimal",
+          "is_pk": false
+        }
+      ],
+      "links": []
+    }
+  ]
+}

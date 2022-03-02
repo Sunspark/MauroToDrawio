@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-02-22T16:19:44.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HllLWavgVtomL4k0Z5SN" version="16.6.2" type="device">
+  <diagram id="c5455ea5-0ce8-42ff-88e8-3feebcb5dd7f" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+
+  <!-- Class Entity: 1 -->
+      <!-- Header Row -->
+        <mxCell id="2937d766-9dde-44e5-85dd-92f1e64d85f4" value="Invoice"
+          style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;perimeterSpacing=0;rounded=1;sketch=1;shadow=0;swimlaneLine=1;sketchStyle=rough;arcSize=50;"
+          vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="210" height="160" as="geometry" />
+        </mxCell>
+
+      <!-- Number of elements: 4 -->
+
+  
+      <!-- Element row: 1 -->
+        <!-- row box -->
+        <mxCell id="cb878887-67d2-4e1d-af2c-703212691851" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="2937d766-9dde-44e5-85dd-92f1e64d85f4">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="cb878887-67d2-4e1d-af2c-703212691851-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="cb878887-67d2-4e1d-af2c-703212691851">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="cb878887-67d2-4e1d-af2c-703212691851-ename" value="Invoice ID"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="cb878887-67d2-4e1d-af2c-703212691851">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="cb878887-67d2-4e1d-af2c-703212691851-etype" value="Text"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="cb878887-67d2-4e1d-af2c-703212691851">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+      <!-- Element row: 2 -->
+        <!-- row box -->
+        <mxCell id="0cfe92fc-328e-4b9d-a459-812d707d0ff7" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="2937d766-9dde-44e5-85dd-92f1e64d85f4">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="0cfe92fc-328e-4b9d-a459-812d707d0ff7-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="0cfe92fc-328e-4b9d-a459-812d707d0ff7">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="0cfe92fc-328e-4b9d-a459-812d707d0ff7-ename" value="Total Net Amount"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="0cfe92fc-328e-4b9d-a459-812d707d0ff7">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="0cfe92fc-328e-4b9d-a459-812d707d0ff7-etype" value="Decimal"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="0cfe92fc-328e-4b9d-a459-812d707d0ff7">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+      <!-- Element row: 3 -->
+        <!-- row box -->
+        <mxCell id="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="2937d766-9dde-44e5-85dd-92f1e64d85f4">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5-ename" value="Total Tax Amount"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5-etype" value="Decimal"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="7a4524c8-781b-4e8c-b6ec-fc6b578e34f5">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+      <!-- Element row: 4 -->
+        <!-- row box -->
+        <mxCell id="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="2937d766-9dde-44e5-85dd-92f1e64d85f4">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf-ename" value="Currency Code"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf-etype" value="Text"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="6ec3c7ed-931f-4534-b2b2-8fcc6c47b1bf">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+
+      <!-- Links outgoing from this class: 2 -->
+  
+        <!-- Connector line: 1 -->
+        <mxCell id="fba2cb28-717c-47f7-bab0-069bc4fb7a05"
+          style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startSize=30;curved=1;sketch=1;endArrow=classic;endFill=0;endSize=20;"
+          edge="1" parent="1"
+          source="2937d766-9dde-44e5-85dd-92f1e64d85f4"
+          target="00e1ebb3-ac45-4113-b5a0-280b05e83dab">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+  
+        <!-- Connector line: 2 -->
+        <mxCell id="ee77408b-24b2-4868-a872-1654d62e506f"
+          style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startSize=30;curved=1;sketch=1;endArrow=classic;endFill=0;endSize=20;"
+          edge="1" parent="1"
+          source="2937d766-9dde-44e5-85dd-92f1e64d85f4"
+          target="85208589-886b-496d-9cb6-5d5869063799">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+  
+
+
+  <!-- Class Entity: 2 -->
+      <!-- Header Row -->
+        <mxCell id="00e1ebb3-ac45-4113-b5a0-280b05e83dab" value="InvoiceLineItem"
+          style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;perimeterSpacing=0;rounded=1;sketch=1;shadow=0;swimlaneLine=1;sketchStyle=rough;arcSize=50;"
+          vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="210" height="160" as="geometry" />
+        </mxCell>
+
+      <!-- Number of elements: 4 -->
+
+  
+      <!-- PK Element row: 1 -->
+        <!-- row box -->
+        <mxCell id="cd73d9f2-b0b3-455f-9965-fdea146265d3" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;"
+          vertex="1" parent="00e1ebb3-ac45-4113-b5a0-280b05e83dab">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="cd73d9f2-b0b3-455f-9965-fdea146265d3-keybox" value="PK"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="cd73d9f2-b0b3-455f-9965-fdea146265d3">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="cd73d9f2-b0b3-455f-9965-fdea146265d3-ename" value="InvoiceLineItem Key"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;"
+          vertex="1" parent="cd73d9f2-b0b3-455f-9965-fdea146265d3">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="cd73d9f2-b0b3-455f-9965-fdea146265d3-etype" value="Text"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="cd73d9f2-b0b3-455f-9965-fdea146265d3">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+      <!-- Element row: 2 -->
+        <!-- row box -->
+        <mxCell id="4e3e4720-2a57-4a57-aa47-45742e40d99c" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="00e1ebb3-ac45-4113-b5a0-280b05e83dab">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="4e3e4720-2a57-4a57-aa47-45742e40d99c-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="4e3e4720-2a57-4a57-aa47-45742e40d99c">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="4e3e4720-2a57-4a57-aa47-45742e40d99c-ename" value="InvoiceLineItem ID"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="4e3e4720-2a57-4a57-aa47-45742e40d99c">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="4e3e4720-2a57-4a57-aa47-45742e40d99c-etype" value="Number"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="4e3e4720-2a57-4a57-aa47-45742e40d99c">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+      <!-- Element row: 3 -->
+        <!-- row box -->
+        <mxCell id="b3bad8d4-6c53-429b-b3ca-46df7e64cd45" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="00e1ebb3-ac45-4113-b5a0-280b05e83dab">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="b3bad8d4-6c53-429b-b3ca-46df7e64cd45-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="b3bad8d4-6c53-429b-b3ca-46df7e64cd45">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="b3bad8d4-6c53-429b-b3ca-46df7e64cd45-ename" value="Net Cost"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="b3bad8d4-6c53-429b-b3ca-46df7e64cd45">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="b3bad8d4-6c53-429b-b3ca-46df7e64cd45-etype" value="Decimal"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="b3bad8d4-6c53-429b-b3ca-46df7e64cd45">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+      <!-- Element row: 4 -->
+        <!-- row box -->
+        <mxCell id="add0d6c4-aec3-4d8c-9d04-752a95bf8187" value=""
+          style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;"
+          vertex="1" parent="00e1ebb3-ac45-4113-b5a0-280b05e83dab">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <!-- key box -->
+        <mxCell id="add0d6c4-aec3-4d8c-9d04-752a95bf8187-keybox" value=""
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+          vertex="1" parent="add0d6c4-aec3-4d8c-9d04-752a95bf8187">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element name -->
+        <mxCell id="add0d6c4-aec3-4d8c-9d04-752a95bf8187-ename" value="Tax amount"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;"
+          vertex="1" parent="add0d6c4-aec3-4d8c-9d04-752a95bf8187">
+          <mxGeometry x="30" width="120" height="30" as="geometry">
+            <mxRectangle width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- element datatype -->
+        <mxCell id="add0d6c4-aec3-4d8c-9d04-752a95bf8187-etype" value="Decimal"
+          style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;"
+          vertex="1" parent="add0d6c4-aec3-4d8c-9d04-752a95bf8187">
+          <mxGeometry x="150" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+  
+
+      <!-- Links outgoing from this class: 0 -->
+  
+
+
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
